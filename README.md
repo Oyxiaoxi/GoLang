@@ -3,6 +3,7 @@
 ### brew install go (brew uninstall go)
 
 '''bash
+
     ==> Downloading https://homebrew.bintray.com/bottles/go-1.7.4.el_capitan.bottle.tar.gz
     ######################################################################## 100.0%
     ==> Pouring go-1.7.4.el_capitan.bottle.tar.gz
@@ -22,6 +23,7 @@
 ## 配置GOPATH
 
 '''bash
+
     go env
     GOARCH="amd64"
     GOBIN=""
@@ -41,11 +43,13 @@
 
 ## 在fishshell设置GOPATH：
 '''bash
+
     set -gx GOPATH /usr/local/Cellar/go/1.7.6
 '''
 
 ## 在bash中设置：
 '''bash
+
     sudo vim .bash_profile
 
     export GOPATH=/usr/local/Cellar/go/1.7.6
@@ -55,6 +59,7 @@
 
 ## 使修改立刻生效:
 '''bash
+
     source .bash_profile
 
     go env
@@ -62,8 +67,12 @@
 
 ## 环境变量设置完成!
 
+
+
+
 ## Visual Studio Code 工作区设置
 '''bash
+
     {
     // Go configuration
     "go.gopath": "/Volumes/WorkDate/Project/Golang/Gocode",
@@ -74,6 +83,7 @@
 # HTTP-Proxy.go 测试程序
 
 '''bash
+
     cd /Volumes/WorkDate/Project/Golang/
     
     // go 编译
